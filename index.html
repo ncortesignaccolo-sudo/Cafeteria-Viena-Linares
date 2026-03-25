@@ -1,1 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cervecería Cafetería Viena | Linares</title>
+  <meta name="description" content="Cervecería Cafetería Viena en Linares. Desayunos, tapas, comidas y cenas con ambiente agradable y atención profesional." />
+  <meta name="theme-color" content="#7b4a22" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="scroll-progress"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">
+        <span class="brand-mark">V</span>
+        <div>
+          <strong>Cervecería Cafetería Viena</strong>
+          <small>Linares, Jaén</small>
+        </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav">
+        <a href="#carta">Carta</a>
+        <a href="#ambiente">Ambiente</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#horario">Horario</a>
+        <a href="#contacto" class="nav-cta">Reservar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Desayunos, tapas y buen ambiente</span>
+          <h1>Una web con presencia para <span>Viena</span></h1>
+          <p>
+            Una demo moderna y llamativa pensada para transmitir variedad, trato profesional y un espacio ideal para desayunar, tapear, comer o reunirse con amigos en Linares.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#carta" class="btn btn-primary">Ver carta demo</a>
+            <a href="#opiniones" class="btn btn-secondary">Leer opiniones</a>
+          </div>
+
+          <div class="hero-stats">
+            <article>
+              <strong>5/5</strong>
+              <span>Opiniones destacadas</span>
+            </article>
+            <article>
+              <strong>7:30–24:00</strong>
+              <span>Amplio horario</span>
+            </article>
+            <article>
+              <strong>Servicio top</strong>
+              <span>Atención muy valorada</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-card main-card">
+            <div class="badge-pill">Lugar para todo el día</div>
+            <h3>De café a cenas en un mismo espacio</h3>
+            <p>
+              Una propuesta ideal para mostrar desayunos, tapas, raciones, ambiente de terraza y contacto rápido desde móvil.
+            </p>
+
+            <div class="mini-gallery">
+              <div class="mini-box mini-one"><span>Desayunos</span></div>
+              <div class="mini-box mini-two"><span>Tapas</span></div>
+              <div class="mini-box mini-three"><span>Terraza</span></div>
+            </div>
+          </div>
+
+          <div class="floating-note note-one">
+            <strong>Atención excelente</strong>
+            <span>Reseñas muy positivas</span>
+          </div>
+
+          <div class="floating-note note-two">
+            <strong>Comida variada</strong>
+            <span>Ideal para enseñar carta</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-strip reveal">
+      <div class="container featured-inner">
+        <span>Demo pensada para vender imagen, confianza y reservas</span>
+        <div class="featured-tags">
+          <span>Carta visual</span>
+          <span>Opiniones</span>
+          <span>Ubicación</span>
+          <span>WhatsApp</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="carta">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Carta demo</span>
+          <h2>Un escaparate digital con hambre de conversión</h2>
+          <p>
+            Una estructura visual para enseñar variedad, destacar el local y facilitar que el cliente llame, reserve o vaya directamente.
+          </p>
+        </div>
+
+        <div class="filters reveal">
+          <button class="filter-btn active" data-filter="all">Todo</button>
+          <button class="filter-btn" data-filter="desayunos">Desayunos</button>
+          <button class="filter-btn" data-filter="tapas">Tapas</button>
+          <button class="filter-btn" data-filter="raciones">Raciones</button>
+          <button class="filter-btn" data-filter="ambiente">Ambiente</button>
+        </div>
+
+        <div class="cards-grid">
+          <article class="menu-card reveal" data-category="desayunos">
+            <div class="menu-visual visual-breakfast">
+              <span class="menu-label">Mañanas</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-topline">
+                <span class="menu-category">Desayunos</span>
+                <span class="menu-rating">★ 5.0</span>
+              </div>
+              <h3>Café, tostadas y arranque del día</h3>
+              <p>Ideal para destacar desayunos y convertir búsquedas de mañana en visitas reales al local.</p>
+              <div class="menu-tags">
+                <span>Temprano</span>
+                <span>Rápido</span>
+                <span>Diario</span>
+              </div>
+              <button class="ghost-btn item-more" data-item="desayuno">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="menu-card reveal" data-category="tapas">
+            <div class="menu-visual visual-tapas">
+              <span class="menu-label">Favoritas</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-topline">
+                <span class="menu-category">Tapas</span>
+                <span class="menu-rating">★ 5.0</span>
+              </div>
+              <h3>Tapas para compartir</h3>
+              <p>Una sección pensada para mostrar variedad, apetito visual y ambiente social.</p>
+              <div class="menu-tags">
+                <span>Variedad</span>
+                <span>Compartir</span>
+                <span>Visual</span>
+              </div>
+              <button class="ghost-btn item-more" data-item="tapas">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="menu-card reveal" data-category="raciones">
+            <div class="menu-visual visual-raciones">
+              <span class="menu-label">Para grupos</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-topline">
+                <span class="menu-category">Raciones</span>
+                <span class="menu-rating">★ 5.0</span>
+              </div>
+              <h3>Platos y raciones con presencia</h3>
+              <p>Perfecto para enseñar opciones más completas y reforzar la idea de comida abundante y variada.</p>
+              <div class="menu-tags">
+                <span>Comida</span>
+                <span>Grupo</span>
+                <span>Completo</span>
+              </div>
+              <button class="ghost-btn item-more" data-item="raciones">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="menu-card reveal" data-category="ambiente">
+            <div class="menu-visual visual-terrace">
+              <span class="menu-label">Terraza</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-topline">
+                <span class="menu-category">Ambiente</span>
+                <span class="menu-rating">★ 5.0</span>
+              </div>
+              <h3>Espacio para reunirse y disfrutar</h3>
+              <p>Una web así puede enseñar el ambiente del local y la comodidad para desayunos, comidas o reuniones.</p>
+              <div class="menu-tags">
+                <span>Social</span>
+                <span>Acogedor</span>
+                <span>Terraza</span>
+              </div>
+              <button class="ghost-btn item-more" data-item="ambiente">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="menu-card reveal" data-category="tapas">
+            <div class="menu-visual visual-cerveza">
+              <span class="menu-label">Cervecería</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-topline">
+                <span class="menu-category">Bebidas</span>
+                <span class="menu-rating">★ 5.0</span>
+              </div>
+              <h3>Cervezas y plan informal</h3>
+              <p>Ideal para reforzar la identidad del negocio y atraer público de tarde y noche.</p>
+              <div class="menu-tags">
+                <span>Afterwork</span>
+                <span>Amigos</span>
+                <span>Tardeo</span>
+              </div>
+              <button class="ghost-btn item-more" data-item="cervezas">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="menu-card reveal" data-category="ambiente">
+            <div class="menu-visual visual-night">
+              <span class="menu-label">Todo el día</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-topline">
+                <span class="menu-category">Experiencia</span>
+                <span class="menu-rating">★ 5.0</span>
+              </div>
+              <h3>Horario amplio y atención constante</h3>
+              <p>Muy útil para mostrar que el local acompaña al cliente desde la mañana hasta la noche.</p>
+              <div class="menu-tags">
+                <span>Amplio horario</span>
+                <span>Flexible</span>
+                <span>Local</span>
+              </div>
+              <button class="ghost-btn item-more" data-item="horario">Ver detalle</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="ambiente">
+      <div class="container two-cols">
+        <div class="copy-block reveal">
+          <span class="eyebrow">Lo que vende esta demo</span>
+          <h2>Buena imagen, buena atención y ganas de entrar</h2>
+          <p>
+            La web está diseñada para transmitir confianza, mostrar variedad y facilitar el contacto rápido. Sirve tanto para captar nuevos clientes como para reforzar la imagen del negocio ante quien ya lo conoce.
+          </p>
+
+          <div class="benefits">
+            <article>
+              <strong>Variedad visible</strong>
+              <p>La carta se presenta de forma más atractiva y ordenada que en redes sociales.</p>
+            </article>
+            <article>
+              <strong>Prueba social</strong>
+              <p>Las opiniones refuerzan el trato, el servicio y la experiencia del local.</p>
+            </article>
+            <article>
+              <strong>Contacto inmediato</strong>
+              <p>Teléfono, WhatsApp, mapa y reserva desde el móvil en pocos segundos.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel-block reveal">
+          <div class="panel-top">
+            <span class="chip">Diseño premium</span>
+            <span class="chip soft">Responsive</span>
+          </div>
+
+          <div class="panel-body">
+            <div class="panel-row">
+              <span>Impacto visual</span>
+              <strong>Muy alto</strong>
+            </div>
+            <div class="panel-row">
+              <span>Facilidad de contacto</span>
+              <strong>Excelente</strong>
+            </div>
+            <div class="panel-row">
+              <span>Valor para reservas</span>
+              <strong>Alto</strong>
+            </div>
+            <div class="panel-row">
+              <span>Potencial SEO local</span>
+              <strong>Muy alto</strong>
+            </div>
+          </div>
+
+          <div class="panel-footer">
+            <p>
+              Una web así transmite más seriedad que depender solo de redes y deja mucho mejor presentada la experiencia del local.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section" id="opiniones">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Opiniones</span>
+          <h2>Lo que más convence ya lo están diciendo los clientes</h2>
+          <p>Estas reseñas son perfectas para una sección de confianza y conversión.</p>
+        </div>
+
+        <div class="testimonial-slider reveal">
+          <button class="slider-arrow prev" aria-label="Anterior">‹</button>
+
+          <div class="testimonial-track">
+            <article class="testimonial active">
+              <div class="quote-mark">“</div>
+              <p>La comida la verdad está bastante buena, tienen bastante comida y diferentes tipos.</p>
+              <div class="testimonial-meta">
+                <strong>Manuel y Javier A.G.</strong>
+                <span>Google · 5/5</span>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="quote-mark">“</div>
+              <p>Magnífico todo pero lo mejor sin duda, la atención de Ester. Agradable, competente y atenta.</p>
+              <div class="testimonial-meta">
+                <strong>Maria Morales</strong>
+                <span>Google · 5/5</span>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="quote-mark">“</div>
+              <p>Servicio buenísimo y profesional. Fuimos un grupo grande y el trato y la comida fue muy buena.</p>
+              <div class="testimonial-meta">
+                <strong>Paloma Peñafiel</strong>
+                <span>Google · 5/5</span>
+              </div>
+            </article>
+          </div>
+
+          <button class="slider-arrow next" aria-label="Siguiente">›</button>
+        </div>
+
+        <div class="review-summary reveal">
+          <article>
+            <strong>Lo que más repiten</strong>
+            <p>Buena atención, comida variada y servicio profesional.</p>
+          </article>
+          <article>
+            <strong>Lo que vende la web</strong>
+            <p>Confianza inmediata para gente que aún no conoce el local.</p>
+          </article>
+          <article>
+            <strong>Resultado comercial</strong>
+            <p>Más visitas, más reservas y mejor percepción de marca.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="horario">
+      <div class="container two-cols">
+        <div class="schedule-card reveal">
+          <span class="eyebrow">Horario</span>
+          <h2>Abierto casi todo el día</h2>
+
+          <ul class="schedule-list">
+            <li><span>Lunes</span><strong>7:30–24:00</strong></li>
+            <li><span>Martes</span><strong>7:30–24:00</strong></li>
+            <li><span>Miércoles</span><strong>7:30–24:00</strong></li>
+            <li><span>Jueves</span><strong>7:30–24:00</strong></li>
+            <li><span>Viernes</span><strong>7:30–24:00</strong></li>
+            <li><span>Sábado</span><strong>7:30–24:00</strong></li>
+            <li><span>Domingo</span><strong>8:30–24:00</strong></li>
+          </ul>
+        </div>
+
+        <div class="contact-card reveal" id="contacto">
+          <span class="eyebrow">Contacto</span>
+          <h2>Reserva, consulta o ven a visitarnos</h2>
+
+          <div class="contact-items">
+            <a href="tel:627360382">
+              <span>Teléfono</span>
+              <strong>627 36 03 82</strong>
+            </a>
+
+            <a href="https://maps.google.com/?q=C.%20la%20Virgen,%2018,%2023700%20Linares,%20Ja%C3%A9n" target="_blank" rel="noopener noreferrer">
+              <span>Dirección</span>
+              <strong>C. la Virgen, 18, 23700 Linares, Jaén</strong>
+            </a>
+
+            <a href="https://wa.me/34627360382?text=Hola%20Cervecer%C3%ADa%20Cafeter%C3%ADa%20Viena,%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer">
+              <span>WhatsApp</span>
+              <strong>Escribir ahora</strong>
+            </a>
+          </div>
+
+          <form class="demo-form" id="demoForm">
+            <div class="form-row">
+              <input type="text" id="nombre" placeholder="Tu nombre" />
+              <input type="tel" id="telefono" placeholder="Tu teléfono" />
+            </div>
+            <textarea id="mensaje" rows="4" placeholder="¿Mesa, consulta o reserva?"></textarea>
+            <button type="submit" class="btn btn-primary form-btn">Enviar por WhatsApp</button>
+          </form>
+
+          <p class="form-note">
+            Esta demo está adaptada a GitHub Pages: no necesita backend y abre WhatsApp con el mensaje preparado.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="container cta-box reveal">
+        <div>
+          <span class="eyebrow">Cierre de la demo</span>
+          <h2>Una buena cervecería también merece una presencia web a la altura</h2>
+          <p>Más imagen, más confianza y una forma mucho más profesional de atraer nuevas visitas en Linares.</p>
+        </div>
+
+        <div class="cta-actions">
+          <a href="#contacto" class="btn btn-primary">Quiero esta estructura</a>
+          <a href="tel:627360382" class="btn btn-secondary">Llamar ahora</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Cervecería Cafetería Viena</strong>
+        <p>Demo conceptual para presentación comercial en Linares.</p>
+      </div>
+      <small>© <span id="year"></span> · Demo lista para GitHub Pages</small>
+    </div>
+  </footer>
+
+  <div class="item-modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Cerrar">×</button>
+      <span class="eyebrow">Detalle</span>
+      <h3 id="modal-title">Elemento</h3>
+      <p id="modal-description">Descripción del elemento.</p>
+      <div class="modal-tags" id="modal-tags"></div>
+      <a href="#contacto" class="btn btn-primary modal-cta">Reservar o consultar</a>
+    </div>
+  </div>
+
+  <a class="floating-contact" href="#contacto">Reservar</a>
+
+  <script src="./script.js"></script>
+</body>
+</html>
